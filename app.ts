@@ -50,21 +50,26 @@
 // }
 // getContractDetails();
 
-import { ethers } from 'ethers';
+// import { ethers } from 'ethers';
 
 
-async function main() {
-   const provider = 'https://sepolia.infura.io/v3/321dad07577441b990ad84380687b0a8'
+// async function main() {
+//    const provider = 'https://sepolia.infura.io/v3/321dad07577441b990ad84380687b0a8'
 
-   const name = await new ethers.JsonRpcProvider(provider);
+//    const name = await new ethers.JsonRpcProvider(provider);
 
-   const wallet =  ethers.Wallet.createRandom();
+//    const wallet =  ethers.Wallet.createRandom();
 
-   const address = wallet.address;
+//    const address = wallet.address;
 
-   const privatekey = wallet.privateKey;
+//    const privatekey = wallet.privateKey;
 
-   console.log(`pub key --> ${address}  privatekey ---> ${privatekey}`)
-}
+//    console.log(`pub key --> ${address}  privatekey ---> ${privatekey}`)
+// }
 
-main()
+// main()
+
+
+const name: string = "hello"
+
+console.log(name)
